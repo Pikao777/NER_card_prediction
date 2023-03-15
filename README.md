@@ -1,6 +1,8 @@
 # NER_card_prediction
 
-先透過pytesseract辨識名片中的文字，再透過spacy訓練NER模型整理非結構化資料
+1. 透過pytesseract辨識名片中的文字
+2. 使用BIO方式標記訓練資料
+3. 透過spacy訓練NER模型，整理非結構化資料
 
 * 初始化
 ``python -m spacy init fill-config ./base_config.cfg ./config.cfg``
