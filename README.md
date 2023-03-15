@@ -1,5 +1,6 @@
 # NER_card_prediction
 
+實作流程：
 1. 透過pytesseract辨識名片中的文字
 2. 使用BIO方式標記訓練資料：
     * Name：NAME
